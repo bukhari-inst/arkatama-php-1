@@ -70,9 +70,8 @@
                                 for ($x = 0; $x < $loop; $x++) {
                                     echo "$string $loop <br>";
                                 }
-
+                                echo "<br>";
                                 if ($loop % 2 == 0) {
-                                    echo "<br>";
                                     echo "$loop Merupakan Bilangan Genap";
                                 } else {
                                     echo "$loop Merupakan Bilangan Ganjil";
